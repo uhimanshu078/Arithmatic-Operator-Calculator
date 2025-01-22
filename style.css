@@ -1,0 +1,31 @@
+
+        h1 {
+            text-align: center;
+        }
+
+        .main {
+            width: 500px;
+            height: 250px;
+            border: 1px solid black;
+            margin: 50px auto;
+        }
+
+        p {
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+
+        .inputSection {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 15px;
+            width: 100px;
+            margin-top: 50px;
+        }

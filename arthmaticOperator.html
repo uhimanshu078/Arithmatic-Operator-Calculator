@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dynamic Calculator</h1>
+
+        <div class="main">
+
+            <div class="output">
+                <p id="output"> </p>
+            </div>
+
+            <div class="inputSection">
+                <input type="number" id="inputfield1" placeholder="Enter Your Number">
+                <br> <br>
+                <input type="number" id="inputfield2" placeholder="Enter Your Number">
+            </div>
+
+            <div class="btns">
+                <center>
+                    <button class="btn" id="btn1" onclick="add()"> Add </button>
+                    <button class="btn" id="btn2" onclick="minus()"> Minus </button>
+                    <button class="btn" id="btn3" onclick="multiply()"> Multiply </button>
+                    <button class="btn" id="btn4" onclick="divide()"> Divide </button>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
